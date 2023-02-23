@@ -1,0 +1,193 @@
+		Primitive types:
+
+		integral types:
+
+
+		short sh=10;
+		
+		byte byte1=100;
+
+		int num=sh;
+		
+		byte byte2=sh;
+
+		short short1=num;
+
+		byte b=200;
+		
+		
+		by default, any intergral constant is a 32-bit int integer type.
+
+		char ch=10;
+
+		char ch1=-10
+
+		Floating point types:
+
+		float f=10.5;
+
+		by default, any decimal literal is a 64 bit double type
+
+		boolean b=0;
+		boolean bool1=null;
+
+		int num=null;
+
+------------------Reference types:
+1. arrays
+2. String
+3. Class
+
+
+one dimensional:
+
+int []arr={10};
+
+int []arr={}
+
+In java, string is not a type, it is a class
+
+int,float,char
+
+String: 
+String is immutable: any String object cannot be modified.
+
+--------------------------Object Oriented Programming----------------------------------
+
+Bank :
+
+Customer
+Employee
+Account
+Loan
+Schemes
+
+1. Identify entities(Class)
+Class: A class is a user defined type.
+A class contains set of attributes which helps us in describing an object.
+
+Class: Employee
+attributes: employeeId,name,salary,designation,
+
+Class:Transaction
+transactionId, transactionDate,amount,type
+
+Object: An object is an instance of class which represents the real world entity.
+
+
+--------------Day2
+this is keyword which represents the current object which has called the method.
+this is only applied to instances of the class.
+this simply means instance or object
+
+Each class available or created in Java is always a child class of Object Class.
+All the classes in Java(predefined,user-defined) have a parent which is Object class.
+
+employee.equals(employee1)
+
+
+---------------------Inheritance----------------------------
+
+protected members are also accessible to non-child class within the same package.
+
+
+
+Abstract classes:
+
+
+Interface : like a class, interface is also a user-defined type.
+
+We create a class to create a type and instantiate.
+
+The purpose of an interface is to implement loose coupling.
+
+interface allows to implment plug and play feature.
+
+
+-----------------------------------Day3-----------------------
+
+Collections APIs in Java.
+
+collection of integer,characters,strings,object
+
+Collection of integers: 10,20,30,40,50
+Collection of characters: A,B,C,D
+Collection of doubles: 10.5,6.5,8.5
+Collection of strings: "John","Mark","James"..
+Collection of object: emp1,emp2,emp3.....
+Collection of booleans: true,true,false,false.....
+
+API: set of classes and interfaces provided by Java.
+  collection API:    java.util package
+
+
+   Iterable 
+  Generic: is used to write type-safe code.
+
+  primitives cannot be used in collection APIs.
+
+  for all primitive types, there is an equivalent classes available in Java , which are called Wrapper classes.
+
+	int Integer
+	char Character
+	double Double
+	float Float
+	short Short
+	byte  Byte
+	boolean Boolean
+
+---------------------------------------------Day4: Exception Handling ----------------------------------
+
+Exceptions are errors which occurs at run-time and these errors are thrown by Runtime(JVM).
+
+In Java, we can have either checked exceptions or unchecked exceptions.
+
+checked expceptions: are the exception which can be identified by the compiler. The compiler tries to warn to that the code might throw exception at runtime.
+
+If there is any checked exceptions, compiler will not allow you to enter Runtime Environment.
+
+All the exceptions except RuntimeExceptions and its child are checked exception.
+
+RuntimeException and its children exception classes are unchecked expcetion.
+
+throw is a keyword which is used to explicitly throw an exception from the code.
+
+-----------------------Java8 ------------------------------------------
+
+Interfaces from Java8 onwards.
+-- Default methods: 
+Functional interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
