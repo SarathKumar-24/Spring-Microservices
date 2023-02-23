@@ -1,0 +1,5 @@
+com\deloitte\ms\controller\UserController.class
+com\deloitte\ms\ShoppingCartRegisterApplication.class
+com\deloitte\ms\entity\User.class
+com\deloitte\ms\config.class
+com\deloitte\ms\repo\UserRepo.class

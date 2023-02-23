@@ -1,0 +1,7 @@
+com\deloitte\ms\ShoppingCartProductServiceApplication.class
+com\deloitte\ms\repo\CartRepo.class
+com\deloitte\ms\model\Cart.class
+com\deloitte\ms\controller\ProductController.class
+com\deloitte\ms\controller\CartController.class
+com\deloitte\ms\model\Product.class
+com\deloitte\ms\repo\ProductRepo.class
