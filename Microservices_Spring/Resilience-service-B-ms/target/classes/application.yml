@@ -1,7 +1,0 @@
-server:
-  port: 9292
-  
-spring:
-  application:
-    name: res-service-B
-    
